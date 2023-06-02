@@ -8,6 +8,10 @@ function App() {
     <div>
       <Item></Item>
       <ItemDate></ItemDate>
+      <Item></Item>
+      <ItemDate></ItemDate>
+      <Item></Item>
+      <ItemDate></ItemDate>
       <div className="App">Hello Ji</div>
     </div>
   );

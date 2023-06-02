@@ -1,4 +1,3 @@
-// import logo from "./logo.svg";
 import "./App.css";
 import Item from "./components/Item";
 import ItemDate from "./components/ItemDate";

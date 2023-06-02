@@ -26,7 +26,7 @@ function App() {
   ];
   return (
     <div>
-      <Item name={response[0].itenName}></Item>
+      <Item name={response[0].itenName}>This is your first Item</Item>
       <ItemDate
         day={response[0].itemDay}
         month={response[0].itemMonth}

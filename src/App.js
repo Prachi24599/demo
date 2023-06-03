@@ -2,6 +2,7 @@ import "./App.css";
 import Item from "./components/Item";
 import ItemDate from "./components/ItemDate";
 import Card from "./components/Card";
+const randomNum = require("random-num");
 
 function App() {
   const response = [
@@ -46,7 +47,8 @@ function App() {
           year={response[2].itemYear}
         ></ItemDate>
 
-        <div className="App">Hello Ji</div>
+        {/* <div className="App">Hello Ji</div> */}
+        <div className="App"> {randomNum(1, 100)}</div>
       </Card>
     </div>
   );
